@@ -23,7 +23,7 @@
 img {
     display: inline-block;
     max-width: 100%;
-    height: auto;
+    height: 100px;
     margin-bottom: 20px;
 }
 .userBox{
@@ -32,13 +32,10 @@ img {
     justify-content: center;
     width: 50%;
     height: 50%;
-    margin-left: 45vh;
-    margin-top: 16vh;
-    margin-bottom: 10vh;
-    border-radius: 50%;
+    margin: auto;
+    border-radius: 10%;
     border:50px solid rgb(88, 90, 215);
     background: #ebcbcb;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 .title {
@@ -49,6 +46,7 @@ img {
     text-align: center;
     margin: auto;
     padding-top: 7vh;
+    text-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 .clickButton {
