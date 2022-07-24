@@ -6,3 +6,9 @@ export const AddUsers=(users)=>{
         payload:users,
     };
 }
+export const DisplayUsers = (user) => { 
+    return {
+        type: ActionTypes.DISPLAY_DATA,
+        payload: user,
+    };
+}

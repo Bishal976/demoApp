@@ -14,3 +14,18 @@ export const AddReducer=(state=initalState,action)=>{
         return state;
     } 
 }
+
+const initalState2 = {
+    user:[]
+};
+export const ShowUser = (state = initalState2, action) => {
+    console.log(state.user);
+    switch (action.type) {
+        case ActionTypes.DISPLAY_DATA:
+            return {
+                ...state,
+                user: [action.payload]
+            }
+        default: return state;
+    }
+}
